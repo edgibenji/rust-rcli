@@ -1,3 +1,10 @@
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, rust!");
+}
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn dummy_test() {
+        assert_eq!(2 + 2, 4);
+    }
 }
